@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: oklch(100% 0 0);
+  --color-foreground: oklch(9.82% 0.04 266.89);
+  --color-card: oklch(100% 0 0);
+  --color-card-foreground: oklch(9.82% 0.04 266.89);
+  --color-popover: oklch(100% 0 0);
+  --color-popover-foreground: oklch(9.82% 0.04 266.89);
+  --color-primary: oklch(11.33% 0.04 264.69);
+  --color-primary-foreground: oklch(97.78% 0 0);
+  --color-secondary: oklch(96.07% 0.01 247.99);
+  --color-secondary-foreground: oklch(11.33% 0.04 264.69);
+  --color-muted: oklch(96.07% 0.01 247.99);
+  --color-muted-foreground: oklch(46.88% 0.02 264.48);
+  --color-accent: oklch(96.07% 0.01 247.99);
+  --color-accent-foreground: oklch(11.33% 0.04 264.69);
+  --color-destructive: oklch(60.82% 0.19 20.66);
+  --color-destructive-foreground: oklch(97.78% 0 0);
+  --color-border: oklch(91.38% 0.01 264.66);
+  --color-input: oklch(91.38% 0.01 264.66);
+  --color-ring: oklch(9.82% 0.04 266.89);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --color-background: oklch(9.82% 0.04 266.89);
+  --color-foreground: oklch(97.78% 0 0);
+  --color-card: oklch(9.82% 0.04 266.89);
+  --color-card-foreground: oklch(97.78% 0 0);
+  --color-popover: oklch(9.82% 0.04 266.89);
+  --color-popover-foreground: oklch(97.78% 0 0);
+  --color-primary: oklch(97.78% 0 0);
+  --color-primary-foreground: oklch(11.33% 0.04 264.69);
+  --color-secondary: oklch(17.5% 0.02 265.63);
+  --color-secondary-foreground: oklch(97.78% 0 0);
+  --color-muted: oklch(17.5% 0.02 265.63);
+  --color-muted-foreground: oklch(65.01% 0.01 268.12);
+  --color-accent: oklch(17.5% 0.02 265.63);
+  --color-accent-foreground: oklch(97.78% 0 0);
+  --color-destructive: oklch(30.64% 0.08 21.24);
+  --color-destructive-foreground: oklch(97.78% 0 0);
+  --color-border: oklch(17.5% 0.02 265.63);
+  --color-input: oklch(17.5% 0.02 265.63);
+  --color-ring: oklch(84.01% 0.01 268.31);
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}

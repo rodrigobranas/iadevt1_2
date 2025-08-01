@@ -1,0 +1,41 @@
+Estrutura do Projeto
+====================
+
+/
+├── backend/                      # Backend Node.js com TypeScript
+│   ├── src/
+│   │   └── index.ts             # Servidor Express (porta 3000)
+│   ├── package.json             # Configuração e dependências do backend
+│   ├── tsconfig.json            # Configuração TypeScript
+│   └── nodemon.json             # Configuração do nodemon
+│
+├── frontend/                     # Frontend React com TypeScript (Vite)
+│   ├── src/
+│   │   ├── App.tsx              # Componente principal React
+│   │   ├── App.css              # Estilos do App
+│   │   ├── main.tsx             # Ponto de entrada
+│   │   ├── index.css            # Estilos globais
+│   │   └── assets/              # Recursos estáticos
+│   ├── public/                   # Arquivos públicos
+│   ├── package.json             # Configuração e dependências do frontend
+│   ├── vite.config.ts           # Configuração Vite (porta 3001)
+│   ├── tsconfig.json            # Configuração TypeScript
+│   └── index.html               # HTML principal
+│
+└── tasks/                        # Documentação das tarefas
+    ├── 01.md
+    └── 02.md
+
+Endpoints Backend:
+- GET http://localhost:3000/status - Retorna status do backend
+
+Frontend:
+- http://localhost:3001 - Interface React padrão do Vite
+
+Dependências Backend:
+- express, cors, pg-promise, axios
+- typescript, ts-node, nodemon, jest, ts-jest
+
+Comandos:
+- Backend: npm run dev (nodemon com ts-node)
+- Frontend: npm run dev (Vite dev server)
