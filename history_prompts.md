@@ -1,11 +1,11 @@
 com base no @tasks/01.md, faça um plano e me mostre   
 
-utilize o vite para criar a estrutura do React.js      
-
--- nisso o pedro pediu para interromper (ctrl+c), mudar para skip permissions e rodar o claude com
+interrompemos o fluxo no meio da execução com ctrl+c
 claude --dangerously-skip-permissions --resume
 
-continue
+/continue
+
+utilize o vite para criar a estrutura do React.js      
 
 pode refinar a task @tasks/02.md 
 
@@ -41,3 +41,5 @@ Usage by model:
        claude-sonnet:  179 input, 21.2k output, 1.0m cache read, 64.5k cache write
 
 O custo com Sonnet seria de cerca de $8
+
+cria um readme.me ensinando a rodar o projeto?
