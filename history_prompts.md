@@ -31,15 +31,5 @@ busque na internet o theme switcher light/dark com tailwind 4 e shadcn de forma 
 
 gera pra mim um conjunto de testes manuais para testar a tela para que o QA faça manualmente  
 
-Total cost:            $32.58
-Total duration (API):  39m 49.4s
-Total duration (wall): 10h 31m 8.7s
-Total code changes:    2482 lines added, 457 lines removed
-Usage by model:
-    claude-3-5-haiku:  77.4k input, 2.6k output, 0 cache read, 0 cache write
-         claude-opus:  385 input, 72.1k output, 11.5m cache read, 479.5k cache write, 2 web search
-       claude-sonnet:  179 input, 21.2k output, 1.0m cache read, 64.5k cache write
-
-O custo com Sonnet seria de cerca de $8
-
 cria um readme.me ensinando a rodar o projeto?
+
