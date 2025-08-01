@@ -29,9 +29,9 @@ undo
 
 busque na internet o theme switcher light/dark com tailwind 4 e shadcn de forma correta para corrigir o bug que está acontendo, provavelmente você não está integrando os arquivos do tailwind no padrão novo  
 
-/review 
+/review coloca no arquivo CODE_REVIEW.md
 
 gera pra mim um conjunto de testes manuais para testar a tela para que o QA faça manualmente  
 
-cria um readme.me ensinando a rodar o projeto?
+cria um README.me documentando o projeto
 
